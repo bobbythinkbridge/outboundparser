@@ -63,7 +63,7 @@ def main():
         d2=candidates[7]
         e1=candidates[8]
         e2=candidates[9]
-        return render_template('result.html', a1=a1, a2=a2, b1=b1, b2=b2, c1=c1, c2=c2, d1=d1, d2=d2, e1=e1, e2=e2)
+        return render_template('result.html', title=title, a1=a1, a2=a2, b1=b1, b2=b2, c1=c1, c2=c2, d1=d1, d2=d2, e1=e1, e2=e2)
     
     return render_template('index.html')
 
